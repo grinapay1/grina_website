@@ -39,7 +39,7 @@ export function Footer() {
             </p>
             <div className="text-sm text-muted-foreground space-y-1">
               <p>Based in Narva, Estonia</p>
-              <p>Launching March 15, 2026</p>
+              {/* <p>Launching March 15, 2026</p> */}
             </div>
           </div>
 

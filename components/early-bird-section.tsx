@@ -14,8 +14,8 @@ export function EarlyBirdSection() {
   })
 
   useEffect(() => {
-    // Target date: March 31, 2026
-    const targetDate = new Date("2026-03-31T23:59:59").getTime()
+    // Target date: April 30, 2026
+    const targetDate = new Date("2026-04-30T23:59:59").getTime()
 
     const updateTimer = () => {
       const now = new Date().getTime()
@@ -58,7 +58,7 @@ export function EarlyBirdSection() {
               {"€"}5,000 Early Bird Discount
             </h2>
             <p className="text-lg text-muted-foreground">
-              Offer expires March 31, 2026
+              Offer expires April 30, 2026
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export function EarlyBirdSection() {
               className="bg-[#F59E0B] hover:bg-[#D97706] text-[#1F2937] h-14 text-lg px-8"
               asChild
             >
-              <Link href="#payment">
+              <Link href="https://buy.stripe.com/3cIdR9bO19dc1m19NP0sU01" target="_blank">
                 Reserve with {"€"}1K Deposit
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
@@ -111,7 +111,7 @@ export function EarlyBirdSection() {
               className="h-14 text-lg px-8"
               asChild
             >
-              <Link href="#consultation">I need more info first</Link>
+              <Link href="mailto:info@grinapay.com">I need more info first</Link>
             </Button>
           </div>
         </div>

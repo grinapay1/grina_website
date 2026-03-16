@@ -21,7 +21,7 @@ export function FinalCTASection() {
               className="bg-[#F59E0B] hover:bg-[#D97706] text-[#1F2937] h-14 text-lg px-8"
               asChild
             >
-              <Link href="#payment">
+              <Link href="https://buy.stripe.com/3cIdR9bO19dc1m19NP0sU01" target="_blank">
                 Reserve Your GrinaHome - {"€"}1K Deposit
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
@@ -32,7 +32,7 @@ export function FinalCTASection() {
               className="h-14 text-lg px-8 bg-transparent border-white text-white hover:bg-white hover:text-[#1F2937]"
               asChild
             >
-              <Link href="#book">
+              <Link href="mailto:info@grinapay.com" >
                 <CalendarCheck className="mr-2 h-5 w-5" />
                 Book Free Consultation
               </Link>

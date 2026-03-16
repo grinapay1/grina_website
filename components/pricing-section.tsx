@@ -142,7 +142,7 @@ export function PricingSection() {
                 EARLY BIRD SPECIAL: First 10 customers save {"€"}5,000!
               </p>
               <p className="text-sm text-muted-foreground">
-                Offer ends March 31, 2026
+                Offer ends April 30, 2026
               </p>
             </div>
           </div>
