@@ -88,10 +88,10 @@ export function HeroSection() {
                 <CheckCircle2 className="h-5 w-5 text-primary" />
                 <span>5 Pre-Orders Secured</span>
               </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              {/* <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <CheckCircle2 className="h-5 w-5 text-primary" />
                 <span>Launching March 15, 2026</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <CheckCircle2 className="h-5 w-5 text-primary" />
                 <span>First 10 Get {"€"}5K Discount</span>
